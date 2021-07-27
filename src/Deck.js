@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 
-export default class Deck extends Component {
- 
+class Deck extends Component {
   render() {
      return (
       <div>
@@ -10,3 +9,4 @@ export default class Deck extends Component {
     )
   }
 }
+export default Deck;
